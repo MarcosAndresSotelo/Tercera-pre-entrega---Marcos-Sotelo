@@ -11,7 +11,6 @@ function nuevoUsuario() {
     let nuevoNombre = document.getElementById('nombre').value
     let nuevoEmail = document.getElementById('email').value
     let nuevaContrasena = document.getElementById('contrasena').value
-    val = 0
 
     nombre = nombre.concat(nuevoNombre)
     email = email.concat(nuevoEmail)
