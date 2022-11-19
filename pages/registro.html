@@ -65,6 +65,14 @@
           </div>
         </div>
       </nav>
+      <div class="botonRegistro">
+        <a class="registrarUsuario" href="../pages/registro.html"
+          >Registrar usuario</a
+        >
+        <a class="registrarUsuario" href="../pages/carrito.html"
+          >Carrito de compras</a
+        >
+      </div>
     </header>
     <main class="bgRegistro">
       <div class="formRegistro">
@@ -106,7 +114,12 @@
             <label for="" class="label">Contraseña</label>
           </div>
 
-          <button type="button" class="enviarBoton" id="botonEnviar">
+          <button
+            type="button"
+            class="enviarBoton"
+            id="botonEnviar"
+            onclick="nuevoUsuario()"
+          >
             Enviar
           </button>
         </form>

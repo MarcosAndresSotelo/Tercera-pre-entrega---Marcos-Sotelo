@@ -124,6 +124,25 @@
   color: rgb(81, 79, 81);
 }
 
+/* carrito */
+.imgProd {
+  width: 50%;
+  height: 50%;
+}
+
+.carritoFlex {
+  display: flex;
+}
+
+/* Dormitorio y baño en construccion */
+.paginaEnConstruccion{
+  font-size: 10rem;
+  text-align: center;
+  text-decoration: underline;
+  color: #19181a;
+
+  
+}
 
 /*main index*/
 .imagenIndex {
